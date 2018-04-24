@@ -142,7 +142,7 @@ compile: deps
 .PHONY: run
 run: deps compile
 	@echo "\nmaking run"
-	python3 ./run.py
+	python3 ./run_mtcnn-camera.py
 
 .PHONY: help
 help:
